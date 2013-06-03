@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}Grunt test{% endblock %}</title>
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+        <!-- CSS -->
+        {% block stylesheets %}
+            <link href="{{ asset('css/grunt-test-1.0.0.css') }}" type="text/css" rel="stylesheet" />
+        {% endblock stylesheets %}
+
+        <!-- Javascript -->
+        {% block javascripts %}
+            <script type="text/javascript" src="{{ asset('js/grunt-test-1.0.0.js') }}"></script>
+        {% endblock javascripts %}
+    </head>
+    <body>
+        {% block header %}
+        {% endblock header %}
+
+        {% block main %}
+        {% endblock main %}
+
+        {% block footer %}
+        {% endblock footer %}
+    </body>
+</html>

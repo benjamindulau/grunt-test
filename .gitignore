@@ -1,0 +1,28 @@
+!.gitignore
+/app/bootstrap*
+/app/cache/*
+/app/logs/*
+/app/sessions/*
+/app/config/parameters.yml
+/build/
+/vendor/
+/bin/
+/composer.phar
+/web/javascripts/vendor/
+/www/css/
+/www/js/
+/www/bundles/
+
+# Node
+/npm-debug.log
+/node_modules
+
+# IDE
+.DS_Store
+nbproject/*
+catalog.xml
+.idea
+*.project
+.vagrant
+Vagrantfile
+manifest.pp/build/

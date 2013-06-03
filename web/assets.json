@@ -1,0 +1,21 @@
+{
+    "javascripts": [
+        "vendor/jquery/jquery.js",
+        "app.js"
+    ],
+
+    "themes": {
+        "base": {
+            "images": "*",
+            "less": []
+        },
+
+        "web": {
+            "images": "*",
+            "less": [
+                "init.less",
+                "layout.less"
+            ]
+        }
+    }
+}
