@@ -27,16 +27,16 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Cit\\GruntBundle\\Composer\\ScriptHandler::npmInstall",
-            "Cit\\GruntBundle\\Composer\\ScriptHandler::bowerInstall"
+            "Acme\\GruntBundle\\Composer\\ScriptHandler::npmInstall",
+            "Acme\\GruntBundle\\Composer\\ScriptHandler::bowerInstall"
         ],
         "post-update-cmd": [
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Cit\\GruntBundle\\Composer\\ScriptHandler::npmInstall",
-            "Cit\\GruntBundle\\Composer\\ScriptHandler::bowerInstall"
+            "Acme\\GruntBundle\\Composer\\ScriptHandler::npmInstall",
+            "Acme\\GruntBundle\\Composer\\ScriptHandler::bowerInstall"
         ]
     },
     "config": {

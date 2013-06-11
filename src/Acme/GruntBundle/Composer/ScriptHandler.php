@@ -1,6 +1,6 @@
 <?php
 
-namespace Cit\GruntBundle\Composer;
+namespace Acme\GruntBundle\Composer;
 
 use Symfony\Component\ClassLoader\ClassCollectionLoader;
 use Symfony\Component\Process\Process;
